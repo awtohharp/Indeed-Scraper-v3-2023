@@ -15,10 +15,10 @@ query = input("Enter job query: ")
 location = input("Enter job location: ")
 num_pages = int(input("Number of pages: "))
 start_list = [page * 10 for page in range(num_pages)]
-base_url = 'https://in.indeed.com'
+base_url = 'https://www.indeed.com'
 #base_url = "https://www.indeed.com'
 
-driver = webdriver.Chrome(ChromeDriverManager().install())
+driver = webdriver.Chrome()
 
 for start in start_list:
     url = base_url + f'/jobs?q={query}&l={location}&start={start}'
