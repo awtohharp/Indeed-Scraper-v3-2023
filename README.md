@@ -1,5 +1,5 @@
 # Indeed-Scraper-v3-2023
-This is a (personal) fork of one of the simple and recent Indeed scrapers on Github. 
+This is a (personal) fork of a simple and recent Indeed scraper. 
 
 The default locale is the United States; your inputs return a list of job titles, along with:
 - Company
