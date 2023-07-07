@@ -2,13 +2,11 @@
 This is a (personal) fork of one of the simple and recent Indeed scrapers on Github. 
 
 The default locale is the United States; your inputs return a list of job titles, along with:
--Job title
--Company
--Location
--URL
--Salary
--Job URLs
--Salary ranges
+- Job title
+- Company
+- Location
+- URL
+- Salary
 
 # Installation - Arch Linux
 
