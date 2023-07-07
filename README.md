@@ -4,8 +4,18 @@ This is a (personal) fork of a simple and recent Indeed scraper.
 The default locale is the United States; your inputs return a list of job titles, along with:
 - Company
 - Location
+- Company rating
+- Salary (minimum, maximum, and whether it's yearly/monthly/hourly)
 - URL
-- Salary
+
+Note that some features in this fork have not been tested in other locales. [The original repository appears to work with searches in India and the United States](https://github.com/RDxR10/Indeed-Scraper-v3-2023), so long as you change the base_url in scraper.py.
+
+Filters include: 
+- Search text
+- Location
+- Radius
+- Remote-only
+- Posting age
 
 # Installation - Arch Linux
 
